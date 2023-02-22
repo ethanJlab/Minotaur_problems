@@ -23,19 +23,19 @@ int generateRandomNumber(int min, int max);
 int main()
 {
     const int guests = 10;
-    //cout << "Input the number of guests: " << endl;
-
-    //cin >> guests;
 
     int guestID = 0;
 
     thread threadArray[guests];
+    
+    // represents the memory of each guest on whether they have entered the maze before
     bool guestFlag[guests] = {false};
+    
     //start party 
-
-
     while (waiterCount != guests){
+        // generate the guest the Minotaur will call
         guestID = generateRandomNumber(0, guests - 1);
+        // The guest enters the labrynth
         threadArray[guestID] = thread(enterLabrynth, guestID, guestFlag);
         threadArray[guestID].join();
     }
