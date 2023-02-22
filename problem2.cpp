@@ -84,7 +84,6 @@ void notifyQueue(queue<int> q)
     {
         cout << "queue is empty" << endl;
         q.push(((guestInRoomID + 1) > guests - 1 ? 0 : (guestInRoomID + 1)));
-        //push(q, ((guestInRoomID + 1) > guests - 1 ? 0 : (guestInRoomID + 1)));
         guestInRoomID = q.front();
         numVisits++;
         cout << "guest " << guestInRoomID << " is in the room" << endl;
