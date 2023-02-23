@@ -19,5 +19,5 @@
 With this method, there is no orginizated way for guests to know who should enter next in the event that many guests would want to see the vase which leads to a situation where not every guest is guaranteed to see it. One advantage of this would be that there is no necesary pre-party planning needed.
 #### Strategy 2
 With this methed, it would prevent the crowding problem that the first strategy suffered from. However, this strategy still suffers from the problem that "A particular guest wanting to see the vase would also have no guarantee that she or he will be able to do so and when".
-#### Strategy 3
+#### *Strategy 3*
 This is the strategy that the the Minotaur should choose! Because of the queue, there is no disorginazation caused by crowding and every guest that enters the queue is guaranteed to see the vase and they will have an estimated time of when they will see it by just looking at their spot in the queue. Additionaly, guests and re-enter the queue and would not netively impact the guests who have not seen it yet and have already entered the queue. 
